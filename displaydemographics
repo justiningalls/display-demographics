@@ -1,0 +1,32 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+
+        int studentId = 24962540;
+        string fullName = "Francis Justin Ingalls";
+        string nickName = "Jusnine";
+        string gender = "Male";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Unit 4 Oprra Kalunasan Cebu City";
+        string course = "Bachelor in Information Technology";
+        string mobileNo = "09621603540";
+        string personalEmail = "justiningalls2001@gmail.com";
+
+        // Displaying the values of each variable with appropriate labels
+        Console.WriteLine("Student ID: " + studentId);
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nick Name: " + nickName);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile No.: " + mobileNo);
+        Console.WriteLine("Personal Email: " + personalEmail);
+
+        
+        Console.ReadLine();
+    }
+}
